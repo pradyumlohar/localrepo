@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="testscripts.TestActitime_Task">
+        <methods>
+          <include name="testTaskDeletion"/>
+          <include name="precondition"/>
+          <include name="testTaskStatusUpdate"/>
+          <include name="postcondition"/>
+        </methods>
+      </class> <!-- testscripts.TestActitime_Task -->
+      <class name="testscripts.TestOrangeHRMLoginLogout">
+        <methods>
+          <include name="precondition"/>
+          <include name="postCondition"/>
+          <include name="testLoginLogout"/>
+        </methods>
+      </class> <!-- testscripts.TestOrangeHRMLoginLogout -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
